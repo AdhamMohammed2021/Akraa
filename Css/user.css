@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+    background-image: url("../img/pexels-photo-2041540.jpeg");
+    width:96vw;
+    height:97vh;
+    background-repeat: no-repeat ;
+    background-size:100%;
+    background-position: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: bolder;
+}
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+  
+  header .brand{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  header .navigation{
+    position: relative;
+  }
+  
+  header .navigation .navigation-items a{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-weight: bolder;
+    
+  }
+  
+  header .btns a {
+      text-decoration:none;
+      color:#fff;
+      padding: 15px 20px;
+      font-weight:bold;
+      border-radius: 2px;
+      margin:0px 15 px;
+      margin-right: 30px;
+      transition:  0.4s;
+     
+
+  }
+   #active{
+      border-bottom: 2px solid #1abc9c;
+      color:#1abc9c;
+  }
+  header .btns a:hover{
+    border-bottom: 2px solid #1abc9c;
+      color:#1abc9c;
+  }
+    img{
+    width:74px;
+    margin-left: 30px;
+   margin-top: -5px;
+  }
+  form {
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 66%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+  }
+  form * {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    form * {
+      color: #ffffff;
+    }
+  }
+  
+  form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  ::placeholder {
+    color: #1b1b1b;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    ::placeholder {
+      color: #e5e5e5;
+    }
+  }
+  
+  button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(78, 6, 6);
+  }
+  .social {
+    margin-top: 30px;
+    display: flex;
+  }
+  .social div {
+    
+    width: 74px;
+    border-radius: 3px;
+    padding: 5px ;
+   
+    color: #150f03;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .social div {
+      color: #eaf0fb;
+    }
+  }
+  
+  .social div:hover {
+    background-color: rgba(45, 13, 223, 0.47);
+  }
+  .social p{
+    padding: 4px;
+    margin: 0px;
+  }

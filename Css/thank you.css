@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:sego ui light;
+	background-image: url('../img/thank-you.jpg');
+	height:100vh;
+	background-image:cover;
+	background-size: 100%;
+	background-position:center;
+	
+
+}
+.mrs .overlay{
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.6);
+	height:100vh;;
+}
+.mrs h1{
+	width:60%;
+	margin:300px auto 60px;
+	text-align:center;
+	color:#fff;
+	font-size:70px;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+    background-image: url("../img/Screenshot (47).png");
+    width:96vw;
+    height:97vh;
+    background-repeat: no-repeat ;
+    background-size:100%;
+    background-position: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: bolder;
+}
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+  
+  header .brand{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  header .navigation{
+    position: relative;
+  }
+  
+  header .navigation .navigation-items a{
+    position: relative;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-weight: bolder;
+    
+  }
+  
+  header .btns a {
+      text-decoration:none;
+      color:#fff;
+      padding: 15px 20px;
+      font-weight:bold;
+      border-radius: 2px;
+      margin:0px 15 px;
+      margin-right: 30px;
+      transition:  0.4s;
+     
+
+  }
+   #active{
+      border-bottom: 2px solid #1abc9c;
+      color:#1abc9c;
+  }
+  header .btns a:hover{
+    border-bottom: 2px solid #1abc9c;
+      color:#1abc9c;
+  }
+    img{
+    width:74px;
+    margin-left: 30px;
+   margin-top: -5px;
+  }
+  .content {
+    flex: 1 1 45rem;
+    position:absolute;
+    top: 80%;
+    left: 50%;
+  }
+  
+  .btn_left {
+    padding: 10px 25px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #c3bfc4, #1e1f1f);
+    border-radius: 5px;
+    display: inline-block;
+    width: 120px;
+    margin: 20px 0;
+    color: #fff;
+    transition: all 1s ease-in;
+  }
+  .btn_right {
+    padding: 10px 25px;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #c3bfc4, #1e1f1f);
+  
+    border-radius: 5px;
+    display: inline-block;
+    width: 120px;
+    margin: 20px 0px 0px 200px;
+    color: #fff;
+    transition: all 1s ease-in;
+  }
+  
+  .btn_left:hover {
+    background-image: linear-gradient(to right, #1abc9c, #e040f8);
+  }
+  .btn_right:hover{
+    background-image: linear-gradient(to right, #e040f8, #1abc9c);
+  }
